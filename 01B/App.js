@@ -7,12 +7,12 @@ class App
         
         this.eenVariableNaam = "hello"
         this.appNaam = "subway surfers"
-        this.versienummer = "0.2"
-        this.versiedatum = "21-11-2023"
+        this.versienummer = 0.2
+        this.versiedatum = 21-11-2023
         this.autheur = "puck"
         this.copyright = "puck"
         this.distributeur = "puck"
-        this.darkmode = "false"
+        this.darkmode = false
 
 
     }

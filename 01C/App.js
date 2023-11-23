@@ -7,24 +7,24 @@ class App
         
         this.eenVariableNaam = "hello"
         this.appNaam = "subway surfers"
-        this.versienummer = "0.2"
-        this.versiedatum = "21-11-2023"
+        this.versienummer = 0.2
+        this.versiedatum = 21-11-2023
         this.autheur = "puck"
         this.copyright = "puck"
         this.distributeur = "puck"
-        this.darkmode = "false"
+        this.darkmode = false
 
-        let nummer = "5"
+        let nummer = 5
         let naam = "puck"
-        let slay ="false"
+        let slay =false
 
         console.log(nummer)
         console.log(naam)
         console.log(slay)
 
-        this.leeftijd = "16"
+        this.leeftijd = 16
         this.naam = "puck"
-        this.cool = "true"
+        this.cool = true
 
 
     }
