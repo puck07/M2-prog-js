@@ -27,7 +27,6 @@ class App
 
         g.beginPath();
         g.fillStyle = "lightgray"
-        
         g.moveTo(600,400);
         g.lineTo(600,600);
         g.lineTo(200,500);
@@ -46,12 +45,24 @@ class App
         g.stroke();
         g.fill()
 
+        g.fillStyle = "red"
+       
         let random = Math.random();
-        console.log(random);
-        if(random < 0.2)
+        console.log(random)
+        if(random < 0.5)
         {
-            title.style.backgroundColor = "#FFFF00"
+           	g.fillStyle = "yellow"
         }
+ 
+        g.beginPath();
+        g.moveTo(400,450);
+        g.lineTo(400,400);
+        g.lineTo(300,400);
+        g.lineTo(300,450);
+        g.closePath();
+        g.stroke();
+        g.fill()
+
 
      
     }  
