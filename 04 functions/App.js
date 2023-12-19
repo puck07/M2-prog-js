@@ -63,9 +63,55 @@ class App
         console.log("hello world!")
        
     }
-}
+
+    newClassFunction()
+    {
+        console.log("hello world in de nieuwClassfunction");
+    }
+    anotherFunctionwithArgumants(aArgument)
+    {
+        console.log("kom maar met je argument");
+        console.log("hier:");
+        console.log(aArgument);
+    }
+    
+    mario()
+    {
+        console.log("MARIO!!");
+    }
+   
+    lachen()
+    {
+        let antwoord = "BWAHAHA!!!"
+        return antwoord;
+       
+    }
+    
+  
+
+    optelt(a,b){
+        let f = parseInt(a) + parseInt(b)
+        return f;
+    }
+
+    hamster()
+    {
+        let antwoord = "pip"
+        return antwoord;
+    }
+
+  
+   }
 
 let app = new App();
 app.runApplication();
-
+app.newClassFunction();
+app.anotherFunctionwithArgumants("mijn argument is iets...");
+app.mario();
+let resultaat = app.lachen();
+console.log(resultaat);
+let f = app.optelt(3,6)
+console.log(f);
+let pip = app.hamster();
+console.log(pip);
 
