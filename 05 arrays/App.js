@@ -22,6 +22,7 @@ class App {
             const element = array[i];
             console.log(i + ": " + element);
         }
+
         array.push("fred", "ed")
         for (let i = 0; i < array.length; i++) {
             const element = array[i];
@@ -35,8 +36,38 @@ class App {
             var optellen = element + (1)
             console.log(optellen)
         }
+        let headersByCssClass = document.getElementsByClassName("name")
+        console.log(headersByCssClass);
+        for (let i = 0; i < headersByCssClass.length; i++) {
+            const element = headersByCssClass[i];
+            console.log(element);
+        }
+
+        let mijnH1 = document.getElementById("headerId")
+        console.log(mijnH1.innerText);
+        for (let i = 0; i < headersByCssClass.length; i++) {
+            const element = headersByCssClass[i]
+            console.log[element.innerText]
+        }
+
+        mijnH1.innerText = "Nieuwe text";
+        for (let i = 0; i < headersByCssClass.length; i++) {
+            const element = headersByCssClass[i];
+            console.log(element.innerText)
+            element.innerText = "huh?"
+        }
+
+        headersByCssClass[0].innerText = "nieuws ";
+        headersByCssClass[1].innerText = "reviews";
+        headersByCssClass[2].innerText = "commentaar ";
+        headersByCssClass[3].innerText = "brief";
+        headersByCssClass[4].innerText = "kaart";
+
+
     }
 }
 
 let app = new App();
 app.runApplication();
+
+
