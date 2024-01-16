@@ -63,6 +63,14 @@ class App {
         headersByCssClass[3].innerText = "brief";
         headersByCssClass[4].innerText = "kaart";
 
+        let data = ["nieuws", "reviews", "commentaar", "beste forum posts", "pricewatch"];
+        console.log(data);
+        for (let i = 0; i < headersByCssClass.length; i++) {
+            const element = headersByCssClass[i];
+            element.innerText = i + ": " + data[i]
+            console.log(element.innerText);
+        }
+
 
     }
 }
